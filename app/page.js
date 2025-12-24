@@ -74,12 +74,6 @@ export default async function Home() {
             instant alerts the moment prices fall—so you always buy at the right
             time.
           </p>
-          <p className="mt-4 text-sm text-gray-500 mb-8">
-            <span className="font-medium text-gray-700">Tip:</span> You can
-            track prices without signing in. Sign in to receive instant
-            notifications when prices drop.
-          </p>
-
           {/* Add Product Form */}
           <AddProductForm user={user} />
 
